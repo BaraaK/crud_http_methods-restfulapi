@@ -1,0 +1,59 @@
+body {
+    font-family: 'PT Sans Caption', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 3vh;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: right;
+    align-content: center;
+    position: sticky;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url(../images/hero-zaandam.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.hero-header {
+    display: flex;
+    align-content: flex-end;
+
+}
+
+.hero-title {
+    max-width: 16em;
+    margin: 0;
+    font-size: 12vh;
+    font-weight: bold;
+    line-height: .9;
+}
+
+
+.navbar a {
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row nowrap;
+}
+
+.navbar li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
